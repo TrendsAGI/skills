@@ -12,6 +12,10 @@ Set `TRENDSAGI_API_KEY`, then run a script and return the JSON response.
 node skills/trendsagi/scripts/get-trends.js --limit 5 --period 24h
 ```
 
+## Requirements
+- Node.js 18+ (for built-in `fetch`).
+- No additional npm dependencies; scripts are plain Node.js.
+
 ## Environment
 Set `TRENDSAGI_API_KEY` with a valid API key.
 Optionally set `TRENDSAGI_BASE_URL` to override the default `https://api.trendsagi.com`.
