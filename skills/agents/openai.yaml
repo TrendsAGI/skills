@@ -1,0 +1,4 @@
+interface:
+  display_name: "TrendsAGI"
+  short_description: "Real-time market trends and insights"
+  default_prompt: "Use $trendsagi to fetch live trends and summarize key market insights."
